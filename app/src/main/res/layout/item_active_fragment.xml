@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background_white"
+    android:paddingBottom="5dp" >
+
+    <TextView
+        android:id="@+id/info_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="5dp"
+        android:ellipsize="end"
+        android:text="垂钓是垂杆钓鱼的简称，俗称“钓鱼”，是指使用钓竿，鱼钩，渔线等钓具"
+        android:textColor="@color/gray_333333"
+        android:textSize="16sp" />
+
+    <RelativeLayout
+        android:id="@+id/image_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/info_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="5dp" >
+
+        <ImageView
+            android:id="@+id/image_single"
+            android:layout_width="match_parent"
+            android:layout_height="105dp"
+            android:background="@drawable/active_view_icon"
+            android:scaleType="fitXY" >
+        </ImageView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="105dp"
+            android:background="@drawable/active_view_bg"
+            android:scaleType="fitXY" >
+        </ImageView>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/status_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/image_layout"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/active_start_status" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image_layout"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="5dp" >
+
+        <TextView
+            android:id="@+id/start_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:textColor="@color/gray_aaaaaa"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/end_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:textColor="@color/gray_aaaaaa"
+            android:textSize="14sp" />
+    </FrameLayout>
+
+</RelativeLayout>

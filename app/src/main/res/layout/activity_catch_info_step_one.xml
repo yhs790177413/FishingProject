@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_white"
+    android:orientation="vertical" >
+
+    
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_gravity="bottom"
+            android:background="@color/blue_35b2e1"
+            android:paddingRight="15dp" >
+
+            <LinearLayout
+                android:id="@+id/left_back_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_gravity="left|center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp" >
+
+                <ImageView
+                    android:id="@+id/left_back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/arrow_left_icon" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/center_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="渔获信息"
+                android:textColor="@color/font_white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/next_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center_vertical"
+                android:text="跳过"
+                android:textColor="@color/font_white"
+                android:textSize="16sp" />
+        </FrameLayout>
+    
+
+    <ListView
+        android:id="@+id/fish_count_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/gray_dddddd"
+        android:dividerHeight="0.5dp" />
+
+    <!--
+    <TextView
+        android:id="@+id/catch_choose_one"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:gravity="center_vertical"
+        android:text="爆护"
+        android:textColor="@color/gray_aaaaaa"
+        android:textSize="16dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/gray_dddddd" />
+
+    <TextView
+        android:id="@+id/catch_choose_two"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:gravity="center_vertical"
+        android:text="空军"
+        android:textColor="@color/gray_aaaaaa"
+        android:textSize="16dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/gray_dddddd" />
+
+    <TextView
+        android:id="@+id/catch_choose_three"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:gravity="center_vertical"
+        android:text="有巨物"
+        android:textColor="@color/gray_aaaaaa"
+        android:textSize="16dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/gray_dddddd" />
+
+    <TextView
+        android:id="@+id/catch_choose_four"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:gravity="center_vertical"
+        android:text="一尾"
+        android:textColor="@color/gray_aaaaaa"
+        android:textSize="16dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/gray_dddddd" />
+
+    <TextView
+        android:id="@+id/catch_choose_five"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:gravity="center_vertical"
+        android:text="二尾"
+        android:textColor="@color/gray_aaaaaa"
+        android:textSize="16dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/gray_dddddd" />
+
+    <TextView
+        android:id="@+id/catch_choose_3"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:gravity="center_vertical"
+        android:text="三尾"
+        android:textColor="@color/gray_aaaaaa"
+        android:textSize="16dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/gray_dddddd" />
+
+    <TextView
+        android:id="@+id/catch_choose_4"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:gravity="center_vertical"
+        android:text="四尾"
+        android:textColor="@color/gray_aaaaaa"
+        android:textSize="16dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/gray_dddddd" />
+
+    <TextView
+        android:id="@+id/catch_choose_5"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:gravity="center_vertical"
+        android:text="五尾"
+        android:textColor="@color/gray_aaaaaa"
+        android:textSize="16dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/gray_dddddd" />
+
+    <TextView
+        android:id="@+id/catch_choose_6"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:gravity="center_vertical"
+        android:text="六尾"
+        android:textColor="@color/gray_aaaaaa"
+        android:textSize="16dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/gray_dddddd" />
+
+    <TextView
+        android:id="@+id/catch_choose_7"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:gravity="center_vertical"
+        android:text="七尾"
+        android:textColor="@color/gray_aaaaaa"
+        android:textSize="16dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/gray_dddddd" />
+
+    <TextView
+        android:id="@+id/catch_choose_8"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:gravity="center_vertical"
+        android:text="八尾"
+        android:textColor="@color/gray_aaaaaa"
+        android:textSize="16dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/gray_dddddd" />
+
+    <TextView
+        android:id="@+id/catch_choose_9"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:gravity="center_vertical"
+        android:text="九尾"
+        android:textColor="@color/gray_aaaaaa"
+        android:textSize="16dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/gray_dddddd" />
+
+    <TextView
+        android:id="@+id/catch_choose_10"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:gravity="center_vertical"
+        android:text="十尾"
+        android:textColor="@color/gray_aaaaaa"
+        android:textSize="16dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/gray_dddddd" />
+    -->
+
+</LinearLayout>

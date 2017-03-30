@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="147dp" 
+    android:layout_height="147dp"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:gravity="center_horizontal">
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="官厅水库"
+        android:textSize="16sp"
+        android:layout_marginTop="13dp"
+        android:textColor="@color/black"/>
+    
+    <ImageView
+        android:layout_marginTop="13dp"
+        android:layout_width="110dp"
+        android:layout_height="85dp"
+        />
+    
+    <RelativeLayout
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp">
+        
+        <ImageView
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/distance_icon"/>
+        
+        <TextView
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="60.7Km"
+            android:textColor="@color/blue_368dbc"
+            android:textSize="16sp"/>
+        
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/footer_print_count"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/footer_icon"/>
+        
+        <TextView
+            android:id="@+id/footer_print_count"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="13"
+            android:textColor="@color/red"
+            android:textSize="16sp"/>
+        
+        
+        </RelativeLayout>
+
+</LinearLayout>

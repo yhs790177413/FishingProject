@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DroidPlugin/DroidPlugin.iml" filepath="$PROJECT_DIR$/DroidPlugin/DroidPlugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Fishing.iml" filepath="$PROJECT_DIR$/Fishing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bdupdate/bdupdate.iml" filepath="$PROJECT_DIR$/bdupdate/bdupdate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/charting/charting.iml" filepath="$PROJECT_DIR$/charting/charting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/controller/controller.iml" filepath="$PROJECT_DIR$/controller/controller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/emojilib/emojilib.iml" filepath="$PROJECT_DIR$/emojilib/emojilib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imagelib/imagelib.iml" filepath="$PROJECT_DIR$/imagelib/imagelib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qiniu/qiniu.iml" filepath="$PROJECT_DIR$/qiniu/qiniu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/social_sdk_example/social_sdk_example.iml" filepath="$PROJECT_DIR$/social_sdk_example/social_sdk_example.iml" />
+    </modules>
+  </component>
+</project>

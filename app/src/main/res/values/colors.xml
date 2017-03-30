@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <color name="background_white">#ffffff</color>
+    <color name="item_press_gray">#eeeeee</color>
+    <color name="black">#000000</color>
+    <color name="blue_198ADE">#198ADE</color>
+    <color name="gray_333333">#333333</color>
+    <color name="gray_666666">#666666</color>
+    <color name="gray_999999">#999999</color>
+    <color name="gray_aaaaaa">#aaaaaa</color>
+    <color name="gray_dddddd">#dddddd</color>
+    <color name="gray_e1e1e1">#e1e1e1</color>
+    <!-- 灰色文字 -->
+    <color name="gray_f0f0f0">#f0f0f0</color>
+    <!-- 灰色背景 -->
+    <color name="gray_f2f2f2">#f2f2f2</color>
+    <color name="gray_line_square_edittxt">#cccccc</color>
+    <color name="blue_20ace1">#20ace1</color>
+    <color name="blue_0e4d7f">#0e4d7f</color>
+    <color name="blue_35b2e1">#35b2e1</color>
+    <color name="blue_368dbc">#368dbc</color>
+    <color name="blue_007bb4">#007bb4</color>
+    <color name="blue_254a60">#254a60</color>
+    <color name="blue_009cff">#009cff</color>
+    <color name="green_3be74f">#3be74f</color>
+    <color name="org_FF7200">#21C1FC</color>
+    <color name="red">#ff0000</color>
+    <color name="red_d30549">#d30549</color>
+    <color name="red_fc5988">#fc5988</color>
+    <color name="gray_line">#cccccc</color>
+    <color name="font_gray_deep">#555555</color>
+    <color name="font_gray_light">#999999</color>
+    <color name="font_gray_unavail">#bbbbbb</color>
+    <color name="font_white">#ffffff</color>
+    <color name="font_orange">#ff8800</color>
+    <color name="font_red">#cc2200</color>
+    <color name="font_gray_hint">#bbbbbb</color>
+    <color name="font_orange_deep">#ff6600</color>
+    <color name="font_orange_deep_deep">#ff5500</color>
+    <color name="button_normal_background_orange">#ff8800</color>
+    <color name="crop_button_bar">#f3f3f3</color>
+    <color name="crop__selector_pressed">#1a000000</color>
+    <color name="crop__selector_focused">#77000000</color>
+    <color name="crop__button_text">#666666</color>
+    <color name="translucent_black">#77000000</color>
+    
+    <!--标签-->
+    <color name="color_35B2E1">#35B2E1</color>
+    <color name="color_37C935">#37C935</color>
+    <color name="color_383F38">#383F38</color>
+    <color name="color_FFCC00">#FFCC00</color>
+    <color name="color_EF58A3">#EF58A3</color>
+    <color name="color_FC8C09">#FC8C09</color>
+    <color name="color_277BA2">#277BA2</color>
+
+</resources>

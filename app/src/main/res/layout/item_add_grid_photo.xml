@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="90dp"
+        android:layout_height="90dp" >
+
+        <ImageView
+            android:id="@+id/item_photo"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentBottom="true"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/tv_remove"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/delete_icon"
+            android:paddingBottom="20dp"
+            android:paddingLeft="20dp"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+</LinearLayout>

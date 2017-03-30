@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">去哪钓鱼</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="about_us_tips">\t\t我们是一群爱鱼的小伙伴，我们希望“去哪钓鱼“APP能帮助像我们一样的小伙伴更好的享受钓鱼时光，交上好基友，买到超值的渔具，我们别无他求，因为这是我们的圈子，我们的挚爱。</string>
+    <string name="crop__saving">正在保存图片…</string>
+    <string name="crop__wait">请稍候…</string>
+    <string name="crop__pick_error">没有可用的图片</string>
+    <string name="crop__done">完成</string>
+    <string name="crop__cancel">取消</string>
+    <string name="image_count">%1$s张</string>
+    <string name="donot_has_sdcard">检查到该设备无内存卡</string>
+    <string name="meteorological">有风气压高，氧多鱼好钓。阴天气压低，钓浮不钓底。\n流水钓鱼易，静水钓鱼难。和风钓全天，烈日钓早晚。\n南风不钓鱼，北风快下杆。迎风去钓鱼，鱼篓总不空。\n日晕好钓鱼，月晕一场空。水底泛青苔，必有大鱼在。</string>
+    <string name="clouds_and_rain">春雨鱼满塘，夏雨不上钩。宁钓日落后，不钓雷雨前。\n雨后鱼靠边，切莫用长鞭。下雾不下雨，雾后再钓鱼。\n雨后放晴空，钓鱼早出行。秋初钓阴雨，中秋钓晴天。\n春日钓雨雾，仲夏钓早晚。初秋钓黄昏，严冬钓暗草。</string>
+    <string name="spring">春初天还凉，鱼儿深水藏。\n仲春天转暖，鱼儿奔草浅。\n暮春鱼活跃，深浅都可钓。\n清明鱼开口，寒露鱼封口。</string>
+    <string name="summary">夏秋不钓午，否则白辛苦。\n夏日钓早晚，鱼篓必满满。\n夏雨钓西风，鱼儿娄不空。\n梅雨去钓鱼，越钓越开心。</string>
+    <string name="autumn">深秋水便冷，鱼儿深水藏。\n勤钓仲晚秋，懒钓处暑前。\n秋钓雨雾日，莫钓骤变天。\n主钓阴凉处，也要钓阳边。</string>
+    <string name="winter">冬日钓向阳，鱼儿晒滩边。\n雪前去钓鱼，雪后别瞎忙。\n冬钓遇寒流，下竿也白投。\n霜前冷，雪后寒，水冷草枯鱼休眠。</string>
+
+</resources>

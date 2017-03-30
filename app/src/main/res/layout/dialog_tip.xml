@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@null"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_tips_square_bg"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="快乐钓鱼玩法说明"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/gray_333333"
+            android:textSize="16sp" />
+        
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:layout_marginRight="45dp"
+            android:text="1、下拉菜单抛竿钓鱼\n2、菜单刷新后显示渔获\n3、渔获可以变现鱼票\n4、并非每次都能上鱼\n"
+            android:textColor="@color/gray_333333"
+            android:textSize="16sp" />
+        
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/play_btn"
+            android:background="@drawable/play_btn"
+            android:layout_marginBottom="15dp"/>
+
+        
+    </LinearLayout>
+
+</LinearLayout>

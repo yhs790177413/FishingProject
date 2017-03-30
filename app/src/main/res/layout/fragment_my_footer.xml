@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_f0f0f0"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/footerprint_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:background="@color/background_white"
+        android:divider="@color/gray_f0f0f0"
+        android:dividerHeight="6dp"
+        android:scrollbars="none" />
+
+    <LinearLayout
+        android:id="@+id/error_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="网络断开，请检查网络状态重新加载"
+            android:textColor="@color/gray_aaaaaa"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/reload_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/reload_icon"
+            android:text="重新加载"
+            android:textColor="@color/font_white"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>

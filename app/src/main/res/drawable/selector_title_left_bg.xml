@@ -1,0 +1,6 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/title_left_choice" android:state_checked="true"/>
+    <item android:drawable="@drawable/title_left_unchoice" android:state_checked="false"/>
+
+</selector>

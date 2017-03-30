@@ -1,0 +1,112 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="5dp"
+    android:background="@color/background_white"
+    android:orientation="vertical"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp" 
+    android:paddingBottom="5dp">
+
+     <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/gray_dddddd"/>
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/comment_user_header"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/header_circle_icon"
+            android:scaleType="fitXY" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/header_view_bg"
+            android:scaleType="fitXY" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/comment_user_header" >
+
+            <TextView
+                android:id="@+id/comment_user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:text="名称"
+                android:textColor="@color/blue_35b2e1"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/comment_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:text="时间"
+                android:textColor="@color/gray_aaaaaa"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/reply"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="5dp"
+                android:text="回复"
+                android:textColor="@color/gray_999999"
+                android:textSize="14sp" />
+            
+            <TextView
+                android:id="@+id/add_jing_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="5dp"
+                android:layout_below="@+id/reply"
+                android:text="加精"
+                android:textColor="@color/gray_999999"
+                android:textSize="14sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+    
+   
+        
+        <TextView
+            android:layout_marginLeft="45dp"
+            
+        android:id="@+id/comment_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="垂钓是垂杆钓鱼的简称，俗称“钓鱼”，是指使用钓竿，鱼钩，渔线等钓具"
+        android:textColor="@color/gray_333333"
+        android:gravity="center_vertical"
+        android:textSize="16sp" />
+        
+    <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/comment_server_tips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:text="系统打赏了100鱼票"
+            android:textColor="@color/gray_aaaaaa"
+            android:visibility="gone"
+            android:textSize="12sp" />
+    
+  
+
+   
+
+</LinearLayout>

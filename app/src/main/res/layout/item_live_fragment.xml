@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout
+    android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:background="@color/background_white"
+    android:orientation="vertical"
+    android:paddingBottom="10dp">
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+        
+        <ImageView
+            android:id="@+id/user_header"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:scaleType="fitXY"
+            android:background="@drawable/loadding_icon"/>
+        
+        <TextView
+            android:layout_toRightOf="@+id/user_header"
+            android:layout_toLeftOf="@+id/live_info_image"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/live_info_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/gray_333333"
+            android:textSize="14sp"
+            android:text="XX不小心人打窝子被好心人救起"/>
+        
+        <ImageView
+            android:layout_alignParentRight="true"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/live_info_image"
+            android:background="@drawable/loadding_icon"
+            android:scaleType="fitXY"/>
+        
+        <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/information_view_bg"
+                    android:scaleType="fitXY" >
+                </ImageView>
+        </RelativeLayout>
+        
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+        
+        <TextView
+            android:id="@+id/live_info_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/gray_aaaaaa"
+            android:textSize="12sp"
+            android:text="2016-10-24"/>
+        
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentRight="true">
+            
+            <TextView
+            android:id="@+id/live_info_coin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/gray_aaaaaa"
+            android:textSize="12sp"
+            android:layout_marginRight="20dp"
+            android:text="获取50鱼票"/>
+            
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/gray_aaaaaa"
+            android:textSize="12sp"
+            android:text="分享"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>

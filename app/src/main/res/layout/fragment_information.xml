@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_white"
+    android:orientation="vertical" >
+
+        
+         <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/blue_35b2e1">
+        
+             <TextView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:text="返回"
+            android:textColor="@color/font_white"
+            android:textSize="16sp"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/sign_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:text="领鱼票"
+            android:textColor="@color/font_white"
+            android:textSize="16sp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/index_title_logo" />
+
+        <TextView
+            android:id="@+id/info_search_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:textColor="@color/font_white"
+            android:textSize="16sp"
+            android:text="搜索"/>
+        </RelativeLayout>
+        
+        
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/background_white"
+        android:fadingEdge="@null"
+        android:scrollbars="none" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:layout_alignParentTop="true"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/all_rdobtn"
+                    android:layout_width="60dp"
+                    android:layout_height="45dp"
+                    android:background="@android:color/transparent"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:text="全部"
+                    android:textColor="@color/selector_circle_tab_bar"
+                    android:textSize="@dimen/font_30" />
+
+                <RadioButton
+                    android:id="@+id/hot_rdobtn"
+                    android:layout_width="60dp"
+                    android:layout_height="45dp"
+                    android:background="@android:color/transparent"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:text="热点"
+                    android:textColor="@color/selector_circle_tab_bar"
+                    android:textSize="@dimen/font_30" />
+
+                <RadioButton
+                    android:id="@+id/fish_rdobtn"
+                    android:layout_width="60dp"
+                    android:layout_height="45dp"
+                    android:background="@android:color/transparent"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:text="技巧"
+                    android:textColor="@color/selector_circle_tab_bar"
+                    android:textSize="@dimen/font_30" />
+
+                <RadioButton
+                    android:id="@+id/road_asia_rdobtn"
+                    android:layout_width="60dp"
+                    android:layout_height="45dp"
+                    android:background="@android:color/transparent"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:text="游记"
+                    android:textColor="@color/selector_circle_tab_bar"
+                    android:textSize="@dimen/font_30" />
+
+                <RadioButton
+                    android:id="@+id/sea_fish_rdobtn"
+                    android:layout_width="60dp"
+                    android:layout_height="45dp"
+                    android:background="@android:color/transparent"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:text="视频"
+                    android:textColor="@color/selector_circle_tab_bar"
+                    android:textSize="@dimen/font_30" />
+
+                <RadioButton
+                    android:id="@+id/active_rdobtn"
+                    android:layout_width="60dp"
+                    android:layout_height="45dp"
+                    android:background="@android:color/transparent"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:text="活动"
+                    android:textColor="@color/selector_circle_tab_bar"
+                    android:textSize="@dimen/font_30" />
+
+                <RadioButton
+                    android:id="@+id/collection_rdobtn"
+                    android:layout_width="60dp"
+                    android:layout_height="45dp"
+                    android:background="@android:color/transparent"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:text="收藏"
+                    android:textColor="@color/selector_circle_tab_bar"
+                    android:textSize="@dimen/font_30" />
+            </RadioGroup>
+
+            <ImageView
+                android:id="@+id/img1"
+                android:layout_width="60dp"
+                android:layout_height="4dp"
+                android:layout_alignParentBottom="true"
+                android:background="#33b5e5"
+                android:visibility="gone" />
+        </RelativeLayout>
+    </HorizontalScrollView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/gray_line" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vpager_circle"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ffffff"
+        android:flipInterval="30"
+        android:persistentDrawingCache="animation" >
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>

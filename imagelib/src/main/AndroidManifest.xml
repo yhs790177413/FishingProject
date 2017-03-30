@@ -1,0 +1,13 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.imagelib">
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name">
+        <!-- Glide 基本配置 -->
+        <meta-data
+            android:name="imageLoadimageLoad.MyGlideModule"
+            android:value="GlideModule" />
+    </application>
+
+</manifest>

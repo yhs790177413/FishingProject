@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/like_count"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/gray_aaaaaa"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="@color/font_white"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/item_user_header"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_toRightOf="@+id/like_count"
+        android:background="@drawable/header_circle_icon"
+        android:scaleType="fitXY" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_toRightOf="@+id/like_count"
+        android:background="@drawable/header_view_bg"
+        android:scaleType="fitXY" />
+
+    <LinearLayout
+        android:id="@+id/like_layout"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_toRightOf="@+id/item_user_header"
+        android:background="@color/gray_aaaaaa"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/is_go_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gothere_unclick" />
+    </LinearLayout>
+
+</RelativeLayout>

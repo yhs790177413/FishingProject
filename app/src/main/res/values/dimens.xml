@@ -1,0 +1,45 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="default_120">120dp</dimen>
+    <dimen name="default_180">180dp</dimen>
+
+    <dimen name="activity_horizontal_margin">15dp</dimen>
+    <dimen name="activity_vertical_margin">15dp</dimen>
+
+    <!-- <dimen name="font_40">22sp</dimen>-->
+    <!--导航栏标题-->
+    <dimen name="font_36">20sp</dimen>
+    <dimen name="font_34">18sp</dimen>
+    <!--标题正文， 大按钮文字大小-->
+    <dimen name="font_32">17sp</dimen>
+    <dimen name="font_30">16sp</dimen>
+    <!--内文， 提示语，小按钮文字大小-->
+    <dimen name="font_28">15sp</dimen>
+    <dimen name="font_26">14sp</dimen>
+    <!--时间日期 ，红点里面的数字-->
+    <dimen name="font_24">13sp</dimen>
+    <dimen name="font_20">12sp</dimen>
+    <dimen name="font_18">11sp</dimen>
+    <dimen name="default_220">220dp</dimen>
+    <dimen name="default_80">80dp</dimen>
+
+
+    <!-- 头像样式 -->
+    <dimen name="portrait_1">56dp</dimen>
+    <dimen name="portrait_2">36dp</dimen>
+    <dimen name="portrait_3">48dp</dimen>
+    <dimen name="portrait_4">70dp</dimen>
+
+    <!-- 间距样式 -->
+    <dimen name="padding_3">3dp</dimen>
+    <dimen name="padding_5">5dp</dimen>
+    <dimen name="padding_10">10dp</dimen>
+    <dimen name="padding_15">15dp</dimen>
+    <dimen name="padding_8">8dp</dimen>
+
+    <dimen name="margin_10">10dp</dimen>
+    <dimen name="margin_16">16dp</dimen>
+    <dimen name="margin_20">20dp</dimen>
+    <dimen name="margin_24">24dp</dimen>
+</resources>

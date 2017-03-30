@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background_white"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp" >
+
+    <ImageView
+        android:id="@+id/visit_header_image"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/fish_point_view_icon"
+        android:scaleType="fitXY" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/fish_point_view_bg"
+        android:scaleType="fitXY" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/visit_header_image" >
+
+        <TextView
+            android:id="@+id/visit_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="去哪钓鱼"
+            android:textColor="@color/gray_333333"
+            android:textSize="16sp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true" >
+
+            <TextView
+                android:id="@+id/distance_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="距离钓点  1300km"
+                android:textColor="@color/gray_333333"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/time_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="最后访问  刚刚"
+                android:textColor="@color/gray_333333"
+                android:textSize="14sp" />
+        </FrameLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

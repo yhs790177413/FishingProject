@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background_white">
+
+    <ImageView
+        android:id="@+id/footer_image"
+        android:layout_width="111dp"
+        android:layout_height="111dp"
+        android:scaleType="fitXY"
+        android:background="@drawable/footer_print_view_icon">
+    </ImageView>
+    
+    <ImageView
+        android:layout_width="111dp"
+        android:layout_height="111dp"
+        android:scaleType="fitXY"
+        android:background="@drawable/footer_view_bg">
+    </ImageView>
+
+</RelativeLayout>
